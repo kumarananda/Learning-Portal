@@ -1,0 +1,146 @@
+/** @format */
+
+.fromWraper {
+  border: 1px solid #868686;
+  border-radius: 3px;
+  padding: 15px 10px;
+  background-color: #000;
+}
+.fromHeader {
+  display: flex;
+  justify-content: end;
+}
+.fromHeader .formTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  width: 100%;
+}
+.fromHeader button {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fromBody {
+  width: 100%;
+  color: #7c7c7c;
+}
+.fromBody .input_box {
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 17px;
+}
+.fromBody .input_box .numberInput {
+  width: 200px;
+  padding: 10px 25px;
+  font-size: 17px;
+}
+.fromBody .input_box label {
+  display: block;
+}
+.fromBody .input_box select {
+  display: block;
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 17px;
+}
+.fromBody .input_box textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  background-color: #cfcfcf;
+  padding: 8px;
+  color: #000;
+}
+
+.fromBody .input_box input {
+  display: block;
+  width: 100%;
+  background-color: #cfcfcf;
+  padding: 8px;
+  color: #000;
+}
+.action_box {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 10px 25px;
+}
+.action_box button {
+  padding: 8px 12px;
+  border-radius: 3px;
+  color: #000;
+  font-weight: bold;
+}
+.action_box button.submitBtn {
+  background-color: #38bdf8;
+}
+.action_box button.cancelBtn {
+  background-color: #dd6b6b;
+}
+.options {
+  padding: 10px 25px 0px 25px;
+  font-size: 17px;
+}
+/* .input_box_options {
+  display: flex;
+  justify-content: space-between;
+}
+.input_box_options .option {
+  width: 80%;
+  display: inline-block;
+}
+.input_box_options .isCorrect-box {
+  display: inline-block;
+  align-items: center;
+}
+.input_box_options .isCorrect-box .isCorrect {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  */
+
+.optionBox {
+  width: 100%;
+  display: flex;
+}
+.optionBox .optionName {
+  width: 100%;
+}
+.optionBox .optionSelect {
+  width: fit-content;
+  display: flex;
+
+  justify-content: center;
+}
+.optionBox .optionSelect .isCorrect {
+  width: 100%;
+}
+.optionBox .optionSelect .isCorrect input {
+  width: 18px;
+  height: 18px;
+}
+.optionBox .optionName .input_box {
+  padding-right: 5px;
+}
+/* .optionBox .optionSelect .input_box {
+  padding-left: 5px;
+} */
+
+.optionBox .optionSelect .input_box {
+  padding-left: 5px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+/* .optionBox .optionSelect .input_box .isCorrect input {
+  margin: auto;
+  margin-top: 10px;
+} */
+
+.optionBox .optionSelect .input_box .isCorrect input {
+  margin: auto;
+  margin-top: 5px;
+}
